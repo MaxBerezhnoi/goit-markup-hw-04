@@ -76,6 +76,7 @@ a {
 .icon {
   fill: black;
   border: sold 2px;
+  margin-right: 10px;
 }
 .x {
   padding-top: 0;
@@ -148,7 +149,7 @@ a {
 .contacts {
   display: flex;
 }
-.contacts .item + .item {
+.contacts .contacs-item + .contakcts-item {
   margin-left: 50px;
 }
 
