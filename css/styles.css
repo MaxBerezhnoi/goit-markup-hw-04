@@ -74,10 +74,10 @@ a {
 }
 
 .icon {
-  fill: black;
-  border: sold 2px;
   margin-right: 10px;
+  fill: #757575;
 }
+
 .x {
   padding-top: 0;
 }
