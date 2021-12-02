@@ -149,10 +149,15 @@ a {
 .contacts {
   display: flex;
 }
-.contacts .contacs-item + .contakcts-item {
+
+/*.contacts .contacts-item a + .contacts-item a {
+  margin-left: 50px;
+}*/
+
+
+.contacts.contacts-link + .contacts-link {
   margin-left: 50px;
 }
-
 .contacts a {
   font-style: normal;
   font-weight: 500;
@@ -164,6 +169,11 @@ a {
 .contacts a:hover,
 .contacts a:focus {
   color: var(--accent-color);
+}
+
+.icon{
+  fill: inherit;
+}
 }
 .contacts-footer {
   margin-left: 215px;
