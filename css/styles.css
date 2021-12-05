@@ -407,9 +407,9 @@ h4 {
 .regular-customer .item:focus .regular-customer-icon {
   fill: var(--accent-color);
 }
-footer {
+.footer {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -418,11 +418,22 @@ footer {
   max-width: 1600px;
   max-height: 252px;
 }
-/*.social-footer {
+/*.social-foaoter {
   margin: 72px 878px 100px 70px;
 }*/
+.footer-contacts {
+  margin-right: 70px;
+  margin-top: 0;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
 
 .footer-social h2 {
+  text-align: start;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -437,6 +448,7 @@ footer {
 .social-footer {
   display: flex;
 }
+
 .social-footer-item {
   width: 44px;
   height: 44px;
@@ -503,6 +515,9 @@ footer {
   border: none;
   background-color: var(--accent-color);
   color: var(--main-title-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .filtrs li:not(:last-child) {
@@ -519,6 +534,14 @@ footer {
 }
 .projects-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.projects-item:hover,
+.projects-item:focus {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .title {
   font-style: normal;
