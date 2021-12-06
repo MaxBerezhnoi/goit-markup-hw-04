@@ -45,6 +45,7 @@ a {
 .page-header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -77,6 +78,7 @@ a {
 .icon {
   margin-right: 10px;
   fill: currentColor;
+  align-items: center;
 }
 
 .x {
@@ -153,6 +155,7 @@ a {
 
 .contacts {
   display: flex;
+  align-items: center;
 }
 .contacts.contacts-link + .contacts-link {
   margin-left: 50px;
